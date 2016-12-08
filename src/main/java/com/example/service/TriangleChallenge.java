@@ -8,10 +8,10 @@ public interface TriangleChallenge {
     /**
      * determine the type of a triangle
      *
-     * @param a
-     * @param b
-     * @param c
-     * @return
+     * @param a     length of the triangle's first side
+     * @param b     length of the triangle's second side
+     * @param c     length of the triangle's third side
+     * @return the type of the triangle
      */
     String challenge(int a, int b, int c);
 }

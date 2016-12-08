@@ -3,8 +3,8 @@ package com.example.service.impl;
 import com.example.service.TriangleChallenge;
 
 /**
- * Author: <a href="mailto:lsk2008@msn.com">lvsike</a>
- * Date: 16-12-8 上午8:25
+ * Author: <a href="mailto:lsk2008@msn.com">sike,lv</a>
+ * Date: 16-12-7 21:11
  */
 public class TriangleChallengeImpl implements TriangleChallenge {
     @Override
