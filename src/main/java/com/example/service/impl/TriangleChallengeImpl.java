@@ -25,7 +25,7 @@ public class TriangleChallengeImpl implements TriangleChallenge {
 
         if (a == b && b == c) {
             return "It is a equilateral triangle";
-        } else if ((a == b && a != c) || (a == c && a != b) || (b == c && b != a)) {
+        } else if (a == b || a == c || b == c) {
             return "It is a isosceles triangle";
         } else {
             return "It is a scalene triangle";
