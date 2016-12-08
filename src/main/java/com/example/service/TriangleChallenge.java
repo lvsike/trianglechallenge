@@ -1,8 +1,8 @@
 package com.example.service;
 
 /**
- * Author: <a href="mailto:lsk2008@msn.com">lvsike</a>
- * Date: 16-12-8 上午8:26
+ * Author: <a href="mailto:lsk2008@msn.com">sike,lv</a>
+ * Date: 16-12-8 8:26
  */
 public interface TriangleChallenge {
     /**
