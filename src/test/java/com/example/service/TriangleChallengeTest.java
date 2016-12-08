@@ -1,6 +1,5 @@
-package com.example;
+package com.example.service;
 
-import com.example.service.TriangleChallenge;
 import com.example.service.impl.TriangleChallengeImpl;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
