@@ -17,18 +17,27 @@ public class TriangleChallengeTest extends TestCase {
         return new TestSuite(TriangleChallengeTest.class);
     }
 
-    public void test() {
+    public void testTriangle() {
         TriangleChallenge triangleChallenge = new TriangleChallengeImpl();
         assertSame("It is not a triangle", triangleChallenge.challenge(13, 23, 36));
         assertSame("It is not a triangle", triangleChallenge.challenge(23, 13, 36));
         assertSame("It is not a triangle", triangleChallenge.challenge(36, 13, 23));
+    }
 
+    public void testEquilateralTriangle() {
+        TriangleChallenge triangleChallenge = new TriangleChallengeImpl();
         assertSame("It is a equilateral triangle", triangleChallenge.challenge(3, 3, 3));
+    }
 
+    public void testIsoscelesTriangle() {
+        TriangleChallenge triangleChallenge = new TriangleChallengeImpl();
         assertSame("It is a isosceles triangle", triangleChallenge.challenge(1, 3, 3));
         assertSame("It is a isosceles triangle", triangleChallenge.challenge(3, 1, 3));
         assertSame("It is a isosceles triangle", triangleChallenge.challenge(3, 3, 1));
+    }
 
+    public void testScaleneTriangle() {
+        TriangleChallenge triangleChallenge = new TriangleChallengeImpl();
         assertSame("It is a scalene triangle", triangleChallenge.challenge(3, 4, 5));
     }
 
